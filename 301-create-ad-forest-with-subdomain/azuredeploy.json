@@ -39,7 +39,8 @@
       "metadata": {
         "description": "The name of the admin account for the Domain(s)"
       },
-      "minlength": 6
+      "minlength": 6,
+      "defaultValue": "GBAdmin"
     },
     "adminPassword": {
       "type": "securestring",
@@ -68,11 +69,11 @@
       "metadata": {
         "description": "The size and type of the VM. DS types will get Premium (managed) disks."
       },
-      "defaultValue": "Standard_DS1_v2"
+      "defaultValue": "Standard_D2_v2"
     },
     "imageSKU": {
       "type": "string",
-      "defaultValue": "2012-R2-Datacenter",
+      "defaultValue": "2016-Datacenter",
       "allowedValues": [
         "2012-Datacenter",
         "2012-R2-Datacenter",
