@@ -209,7 +209,7 @@
                    "status": "Disabled",
                    "timeInMinutes": 15
                },
-               "targetResourceId": "[resourceId('Microsoft.Compute/virtualMachines',variables('vmName'))]"
+               "targetResourceId": "[resourceId('Microsoft.Compute/virtualMachines',parameters('vmName'))]"
            }
        }
       ]
