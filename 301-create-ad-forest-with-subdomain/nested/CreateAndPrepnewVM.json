@@ -204,7 +204,7 @@
                "dailyRecurrence": {
                    "time": "1900"
                },
-               "timeZoneId": "Australian Eastern Daylight Time",
+               "timeZoneId": "AUS Eastern Standard Time",
                "notificationSettings": {
                    "status": "Disabled",
                    "timeInMinutes": 15
